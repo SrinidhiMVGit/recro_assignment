@@ -1,0 +1,75 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    padding-left: 1.25rem;
+    margin-left: 1.25rem;
+    position: absolute;
+}
+
+.container h1{
+    font-size:2em;
+    float: center;
+}
+
+.container h1:hover{
+    font-size:2em;
+    text-decoration:underline;
+    background-color: lemonchiffon
+}
+
+.flex-container {
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /* align-items: stretch;
+    align-content: space-around; */
+    height: 80%;
+    width: 90%;
+    margin: 0.125rem;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+.item{
+    width: 18%;  /* Or whatever */
+    height: 50%; /* Or whatever */
+    margin: auto;
+    order: 6;
+    flex-grow: 2;
+    flex-shrink: 1;
+    border: solid 0.063rem black;
+    padding: 5px;
+    position: static;
+}
+
+.item .item-header {
+    height:30%;
+    padding-bottom: 0.188rem;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+
+.item .item-header:hover {
+    text-decoration: underline;
+    background-color: burlywood;
+    border-color:black
+}
+
+.item .item-body {
+    height:50%;
+    margin-top: 0.938rem;
+    overflow-y: auto;
+
+}
+
+.item .item-body:hover {
+    background-color:antiquewhite ;
+    border-color:black
+}
+
+.footer{
+    float: bottom;
+}
